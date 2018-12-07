@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BTR_blue
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 48f0344c2be24ff418f3499e8f9788d3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DropBuffer
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IllumReference
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _StarTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Framebuffer
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OffscreenRT
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .100000001
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _CloudCover
+        second: 0
+      data:
+        first:
+          name: _SunAngle
+        second: 0
+      data:
+        first:
+          name: _PrecipLevel
+        second: 0
+      data:
+        first:
+          name: _GlowVar
+        second: 0
+      data:
+        first:
+          name: _ViewDistance
+        second: 0
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _FogDensity
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius
+        second: 0
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius
+        second: 0
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 0
+      data:
+        first:
+          name: _fKrESun
+        second: 0
+      data:
+        first:
+          name: _fKmESun
+        second: 0
+      data:
+        first:
+          name: _fKr4PI
+        second: 0
+      data:
+        first:
+          name: _fKm4PI
+        second: 0
+      data:
+        first:
+          name: _fScale
+        second: 0
+      data:
+        first:
+          name: _fScaleDepth
+        second: 0
+      data:
+        first:
+          name: _fScaleOverScaleDepth
+        second: 0
+      data:
+        first:
+          name: _Samples
+        second: 0
+      data:
+        first:
+          name: _G
+        second: 0
+      data:
+        first:
+          name: _G2
+        second: 0
+      data:
+        first:
+          name: _Exposure
+        second: 0
+      data:
+        first:
+          name: _SkyBloomThreshold
+        second: 0
+      data:
+        first:
+          name: _BumpAmt
+        second: 10
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: .0349650383, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _StormCenter
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Speed
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ColorVar1
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ColorVar2
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SunColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _v3CameraPos
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _RTSize
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OffsetTransform
+        second: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B5E2AB5-CC81-7C8A-5436-70C61FE901EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>EditorPlugins:7</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.2.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WP8.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WP8.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Metro.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Metro.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BB10.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.BB10.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.MCSim_Server.CSharp.Plugins.csproj">
+      <Project>{17BCC4BA-4DEA-FF8D-3A3E-DC6FD08DBDF8}</Project>
+      <Name>UnityVS.MCSim_Server.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.MCSim_Server.CSharp.csproj">
+      <Project>{49F4F86B-919A-6B99-B5BE-66D10840C076}</Project>
+      <Name>UnityVS.MCSim_Server.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Standard Assets\Editor\Water (Pro Only)\Water4\GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\Water (Pro Only)\Water4\PlanarReflectionEditor.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
+    <Compile Include="Assets\Standard Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CommonScripts\Environment\TerrainToolkit\Read me.txt" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\MoonShader.shader" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\atmosScat.shader" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Clouds\CumulusPerlinLayer.shader" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\OffscreenCompositeShader.shader" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\RainImageEffect.shader" />
+    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\StormClouds.shader" />
+    <None Include="Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+    <None Include="Assets\GUI\Font\Arial\arial.txt" />
+    <None Include="Assets\GUI\Font\Euro\arch.txt" />
+    <None Include="Assets\GUI\Font\Mil\mil.txt" />
+    <None Include="Assets\GUI\Font\MilitaryFont\Military.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\GUI\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\GUI\NGUI\Examples\Other\English.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Other\French.txt" />
+    <None Include="Assets\GUI\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Depth.shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\GUI\Shaders\MaskTexture.shader" />
+    <None Include="Assets\GUI\Vectrosity\Shaders\DepthMask.shader" />
+    <None Include="Assets\GUI\Vectrosity\Shaders\ParticleZwrite.shader" />
+    <None Include="Assets\GUI\Vectrosity\Shaders\SolidColor.shader" />
+    <None Include="Assets\GUI\Vectrosity\Shaders\Unlit .shader" />
+    <None Include="Assets\GUI\Vectrosity\Shaders\UnlitAlpha.shader" />
+    <None Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Shader\Gizmo.shader" />
+    <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh.shader" />
+    <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh2.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump Internal Faces.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse Internal Faces.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Internal Faces.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular Internal Faces.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface.cginc" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceLighting.cginc" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden ScreenSpace Reflection.Shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden ScreenSpace Refraction.Shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceReflection.cginc" />
+    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceRefraction.cginc" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Luminance2NormalsBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\addalphahack.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\lensflarecreate.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField31.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlurDof.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof.shader" />
+    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Image Based\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

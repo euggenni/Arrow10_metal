@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 4ab4d839d3f869d43b5545ca9b9364cd
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - OperatorNode: {instanceID: 0}
+  - Strela10: {instanceID: 0}
+  - OperatorCrosshair: {fileID: 100012, guid: 4131e52abe62d774ca5aaaba6a4dee8c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

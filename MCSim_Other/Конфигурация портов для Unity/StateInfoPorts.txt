@@ -1,0 +1,401 @@
+﻿Strela10_OperatorPanel
+Tumbler
+		TUMBLER_AOZ
+			OFF
+			ON
+		TUMBLER_FON
+			STATE_1
+			STATE_2
+		TUMBLER_DRIVE_HANDLE_OFF
+			MANUAL
+			DRIVE
+			OFF
+		TUMBLER_WORK_TYPE
+			AUTO
+			MODE_1
+			MODE_2
+			MODE_3
+			MODE_4
+		TUMBLER_POWER_24B
+			OFF
+			ON
+		TUMBLER_POWER_28B
+			OFF
+			ON
+		TUMBLER_POWER_30B
+			OFF
+			ON
+		TUMBLER_MODE
+			COMBAT
+			TRAINING
+		TUMBLER_PSP
+			OFF
+			ON
+		TUMBLER_PSP_MODE
+			NP
+			DP
+		TUMBLER_DROP
+			OFF
+			ON
+		TUMBLER_ACU
+			OFF
+			ON
+		TUMBLER_BL
+			OFF
+			ON
+		TUMBLER_SS
+			OFF
+			ON
+		TUMBLER_TEST
+			OFF
+			ON
+	Indicator
+		VOLTMETER_BACKLIGHT
+			OFF
+			ON
+		NVU_MODE
+			OFF
+			ON
+		INDICATOR_I
+			OFF
+			ON
+		INDICATOR_COMBAT
+			OFF
+			ON
+		INDICATOR_TRAINING
+			OFF
+			ON
+		INDICATOR_BOARD
+			OFF
+			ON
+		LAUNCHER_1
+			OFF
+			ON
+		LAUNCHER_2
+			OFF
+			ON
+		LAUNCHER_3
+			OFF
+			ON
+		LAUNCHER_4
+			OFF
+			ON
+		INDICATOR_BL
+			OFF
+			ON
+		CHECK
+			OFF
+			ON
+		PZ_OHL
+			OFF
+			ON
+		INDICATOR_STOWED
+			OFF
+			ON
+Joystick
+Spinner
+		SPINNER_BRIGHTNESS
+		SPINNER_VOLTMETER
+
+
+
+
+
+
+Strela10_OperationalPanel
+Tumbler
+		TUMBLER_AOZ
+			OFF
+			ON
+		TUMBLER_MODE
+			COMBAT
+			TRAINING
+	Indicator
+		INDICATOR_AOZ
+			OFF
+			ON
+		INDICATOR_RADIATION
+			OFF
+			ON
+		INDICATOR_BATTLE
+			OFF
+			ON
+		INDICATOR_TRAINING
+			OFF
+			ON
+Joystick
+Spinner
+
+
+
+
+
+
+
+Strela10_ControlBlock
+Tumbler
+		TUMBLER_STATUS
+			OFF
+			ON
+		TUMBLER_MODE
+			WORK
+			CHECK_I
+			CHECK_II
+		TUMBLER_STAGE_1
+			OFF
+			ON
+		TUMBLER_STAGE_2
+			OFF
+			ON
+		TUMBLER_STAGE_3
+			OFF
+			ON
+		TUMBLER_STAGE_4
+			OFF
+			ON
+	Indicator
+		INDICATOR_STATUS
+			OFF
+			ON
+Joystick
+Spinner
+		SPINNER_BRIGHTNESS
+
+
+
+
+
+Strela10_AzimuthIndicator
+Tumbler
+		TUMBLER_BACKLIGHT
+			OFF
+			ON
+		TUMBLER_C
+			OFF
+			ON
+	Indicator
+		INDICATOR_LEFT
+			OFF
+			ON
+		INDICATOR_RIGHT
+			OFF
+			ON
+		INDICATOR_FORWARD
+			OFF
+			ON
+		INDICATOR_BACKLIGHT
+			OFF
+			ON
+Joystick
+Spinner
+		SPINNER_TOWERANGLE
+		SPINNER_ORIENTATION
+		SPINNER_AMPLIFIER
+
+
+
+
+
+
+Strela10_SupportPanel
+Tumbler
+		TUMBLER_GLASS_HEATING
+			OFF
+			ON
+		TUMBLER_LIGHT
+			OFF
+			ON
+		TUMBLER_FAN
+			OFF
+			ON
+		TUMBLER_CLEANER
+			OFF
+			ON
+		TUMBLER_POSITION
+			BATTLE
+			STOWED
+		TUMBLER_TRACKING
+			AUTO
+			MANUAL
+	Indicator
+		INDICATOR_GLASS_HEATING
+			OFF
+			ON
+Joystick
+Spinner
+
+
+
+
+
+
+
+Strela10_GuidancePanel
+Tumbler
+		TUMBLER_COOL
+			OFF
+			ON
+		TUMBLER_BOARD
+			OFF
+			ON
+		TUMBLER_TRACK_LAUNCH
+			OFF
+			TRACKING
+			LAUNCH
+		TUMBLER_TRIGGER_DRIVE
+			OFF
+			ON
+	Indicator
+Joystick
+		OperatorJoystickHorizontal
+		OperatorJoystickVertical
+Spinner
+
+
+
+
+
+
+
+Strela10_VizorPanel
+Tumbler
+		TUMBLER_ILLUM
+			OFF
+			ON
+		TUMBLER_POSITION_WORK_TYPE
+			POS_1
+			POS_2
+			POS_3
+			POS_4
+			POS_5
+			POS_6
+			POS_7
+			POS_8
+		TUMBLER_POWER_NRZ
+			OFF
+			ON
+		TUMBLER_WORK_NRZ
+			OFF
+			ON
+		TUMBLER_VV
+			OFF
+			ON
+		TUMBLER_СС
+			OFF
+			ON
+		TUMBLER_СС2
+			OFF
+			ON
+		TUMBLER_LOSE
+			ON
+		TUMBLER_CODE_POSITION
+			P_0
+			P_1
+			P_2
+			P_3
+			P_4
+			P_5
+			P_6
+		TUMBLER_FILTER_UP
+			LEFT
+			CENTER
+			RIGTH
+		TUMBLER_FILTER_DOWN
+			X_2
+			X_4
+		TUMBLER_VZ
+			OFF
+			ON
+		TUMBLER_SD
+			OFF
+			ON
+		TUMBLER_YPCH
+			OFF
+			ON
+	Indicator
+		INDICATOR_U_AMPER
+			OFF
+			ON
+		INDICATOR_U_CENTER
+			OFF
+			ON
+		INDICATOR_U_BACK
+			OFF
+			ON
+		INDICATOR_U_PV
+			OFF
+			ON
+		INDICATOR_U_VENT
+			OFF
+			ON
+		INDICATOR_U_NC
+			OFF
+			ON
+		INDICATOR_U_115
+			OFF
+			ON
+		INDICATOR_U_NRZ_POWER
+			OFF
+			ON
+Joystick
+Spinner
+
+
+
+
+
+
+
+
+Strela10_ARC
+Tumbler
+		TUMBLER_A3
+			OFF
+			ON
+	Indicator
+		INDICATOR_STATUS
+			OFF
+			ON
+Joystick
+Spinner
+		SPINNER_BRIGHTNESS
+
+
+
+
+
+
+
+
+Strela10_SoundPanel
+Tumbler
+	Indicator
+Joystick
+Spinner
+		SPINNER_SOUNDCO
+		SPINNER_SPEECH
+		SPINNER_AMPLIFIER
+
+
+
+
+
+
+
+Strela10_CommonPanel
+Tumbler
+		TUMBLER_PEDAL
+			OFF
+			ON
+		HANDL
+			OFF
+			ON
+		PEDAL_AZIM
+			OFF
+			ON
+		TUMBLER_STOP
+			OFF
+			ON
+	Indicator
+Joystick
+Spinner

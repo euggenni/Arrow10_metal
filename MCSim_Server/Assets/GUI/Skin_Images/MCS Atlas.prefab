@@ -1,0 +1,565 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MCS Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 28ba55739da0b0044a13047592d51b14, type: 2}
+  sprites:
+  - name: Window_Inactive
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 110
+      width: 126
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 655
+      y: 195
+      width: 52
+      height: 14
+    paddingLeft: .142857149
+    paddingRight: .158730164
+    paddingTop: .131944448
+    paddingBottom: .131944448
+  - name: Window
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 12
+      width: 184
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 102
+      width: 54
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Box
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 22
+      width: 232
+      height: 232
+    inner:
+      serializedVersion: 2
+      x: 15
+      y: 37
+      width: 202
+      height: 202
+    paddingLeft: .00431034481
+    paddingRight: .00431034481
+    paddingTop: .00431034481
+    paddingBottom: .00431034481
+  - name: closeX
+    outer:
+      serializedVersion: 2
+      x: 839
+      y: 121
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 839
+      y: 121
+      width: 38
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_active
+    outer:
+      serializedVersion: 2
+      x: 1004
+      y: 91
+      width: 40
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1004
+      y: 91
+      width: 40
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Textfield_focused
+    outer:
+      serializedVersion: 2
+      x: 839
+      y: 26
+      width: 54
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 854
+      y: 41
+      width: 24
+      height: 53
+    paddingLeft: .0185185187
+    paddingRight: .055555556
+    paddingTop: 0
+    paddingBottom: .0120481923
+  - name: PopupWindow
+    outer:
+      serializedVersion: 2
+      x: 1808
+      y: 714
+      width: 94
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 1823
+      y: 729
+      width: 64
+      height: 278
+    paddingLeft: .0106382975
+    paddingRight: .0106382975
+    paddingTop: .0032258064
+    paddingBottom: .0032258064
+  - name: closeX_hover
+    outer:
+      serializedVersion: 2
+      x: 1059
+      y: 135
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1059
+      y: 135
+      width: 38
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button_selected
+    outer:
+      serializedVersion: 2
+      x: 1004
+      y: 10
+      width: 40
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1004
+      y: 10
+      width: 40
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CheckboxOn
+    outer:
+      serializedVersion: 2
+      x: 1100
+      y: 202
+      width: 51
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1100
+      y: 202
+      width: 51
+      height: 52
+    paddingLeft: 0
+    paddingRight: .0588235296
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Textfield_normal
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 22
+      width: 54
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 928
+      y: 38
+      width: 22
+      height: 50
+    paddingLeft: .0185185187
+    paddingRight: .055555556
+    paddingTop: 0
+    paddingBottom: .024390243
+  - name: button_normal
+    outer:
+      serializedVersion: 2
+      x: 1059
+      y: 174
+      width: 40
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1071
+      y: 186
+      width: 12
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CheckboxOn_hover
+    outer:
+      serializedVersion: 2
+      x: 1100
+      y: 149
+      width: 51
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1100
+      y: 149
+      width: 51
+      height: 52
+    paddingLeft: 0
+    paddingRight: .0588235296
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Textfield_hover
+    outer:
+      serializedVersion: 2
+      x: 1004
+      y: 172
+      width: 54
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 1019
+      y: 187
+      width: 24
+      height: 52
+    paddingLeft: .0185185187
+    paddingRight: .055555556
+    paddingTop: 0
+    paddingBottom: .024390243
+  - name: WindowCommander
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 1390
+      height: 769
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 255
+      width: 1385
+      height: 769
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_R_Active
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 10
+      width: 92
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 10
+      width: 92
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_L_Active
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 205
+      width: 91
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 205
+      width: 91
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_L_Normal
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 155
+      width: 91
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 155
+      width: 91
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Tank
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 160
+      width: 166
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 160
+      width: 166
+      height: 94
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_C_Normal
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 110
+      width: 93
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 110
+      width: 93
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons
+    outer:
+      serializedVersion: 2
+      x: 1391
+      y: 139
+      width: 300
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1391
+      y: 139
+      width: 300
+      height: 300
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_R_Normal
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 105
+      width: 91
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 105
+      width: 91
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_C_Active
+    outer:
+      serializedVersion: 2
+      x: 745
+      y: 60
+      width: 93
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 745
+      y: 60
+      width: 93
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Tank2
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 33
+      width: 120
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 618
+      y: 33
+      width: 120
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Plane
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 127
+      width: 199
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 127
+      width: 199
+      height: 127
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Satellite_Vertical
+    outer:
+      serializedVersion: 2
+      x: 1391
+      y: 440
+      width: 416
+      height: 584
+    inner:
+      serializedVersion: 2
+      x: 1391
+      y: 440
+      width: 416
+      height: 584
+    paddingLeft: .237980768
+    paddingRight: .204326928
+    paddingTop: .0239726026
+    paddingBottom: .00342465751
+  - name: CheckboxOff
+    outer:
+      serializedVersion: 2
+      x: 1100
+      y: 96
+      width: 51
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1100
+      y: 96
+      width: 51
+      height: 52
+    paddingLeft: 0
+    paddingRight: .0588235296
+    paddingTop: 0
+    paddingBottom: 0
+  - name: SliderBase
+    outer:
+      serializedVersion: 2
+      x: 618
+      y: 2
+      width: 48
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 633
+      y: 17
+      width: 18
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0666666701
+  - name: Slider_Blue
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 50
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 50
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: arrow
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 26
+      width: 171
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 26
+      width: 171
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

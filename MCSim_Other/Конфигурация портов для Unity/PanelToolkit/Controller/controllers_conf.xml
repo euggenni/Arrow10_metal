@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<controller name="plc150">
+		<ip_address address="10.0.6.10"></ip_address>
+		<tcp_port port="502"></tcp_port>
+		<open_ports>
+			<port_device id="1" type="di" defaultvalue="0"></port>
+			<port_device id="2" type="do" defaultvalue="0"></port>
+			<port_device id="3" type="ai" defaultvalue="0"></port>
+			<port_device id="4" type="di" defaultvalue="0"></port>
+		</open_ports>
+	</controller>
+</xml>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+	<block_element name="PO2">
+		<toolkit_element type="tumbler" name="bs_aprcu" description="БС АПРЦУ" inversion="false">
+			<port id="1" position="on"></port>
+		</toolkit_element>
+		<toolkit_element type="switcher" description="ВЫБОР ПОСТА РАКЕТЫ" name="rocket_post">
+			<port id="2" position="I_post"></port>
+			<port id="3" position="II_post"></port>
+		</toolkit_element>
+		<toolkit_element type="joystick" description="ВЕРТИКАЛЬНОЕ НАВЕДЕНИЕ" name="vertical_n">
+			<port id="4" min_="0" max_="2000" min_calib="200" max_calib="4000">
+		</toolkit_element>
+		<toolkit_element type="joystick" description="ГОРИЗОНТАЛЬНОЕ НАВЕДЕНИЕ" name="horizontal_n">
+			<port id="5" min_="0" max_="2000" min_calib="200" max_calib="4000">
+		</toolkit_element>
+		<toolkit_element type="indicator" description="ЛАМПА ПОСТ I" name="lamp_post_I">
+			<port id="6" position="I_post"></port>
+		</toolkit_element>
+	</block_element>
+</xml>
+
+//пока что type_con="single" или type_con="complex" опускается (т.е. опускается проверка со стороны приложения на то, сколько портов должно приходится на каждое из устройств для их корректной работы), вместо этого при разборе XML-дерева указываеются несколько внутренних тегов с именем port
+
+
+<block id="PO2">
+<port id="1" element_name="">

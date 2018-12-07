@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: atmosScat
+  m_Shader: {fileID: 4800000, guid: 4445e1f9c0c4c1547bcd449c325df826, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _StarTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: starTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: a8281d2e8ff9d3441a3fca5ea2f2b00d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: noisetex
+        second:
+          m_Texture: {fileID: 2800000, guid: 76018f36586e3f648b654e9611e21e5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
+          name: _fCameraHeight
+        second: 45193.6523
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 2042466180
+      data:
+        first:
+          name: _fOuterRadius
+        second: 46125
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 2127515650
+      data:
+        first:
+          name: _fInnerRadius
+        second: 45000
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 2024999940
+      data:
+        first:
+          name: _fKrESun
+        second: .0299999993
+      data:
+        first:
+          name: _fKmESun
+        second: .0120000001
+      data:
+        first:
+          name: _fKr4PI
+        second: .0314159282
+      data:
+        first:
+          name: _fKm4PI
+        second: .0125663718
+      data:
+        first:
+          name: _fScale
+        second: .000888888899
+      data:
+        first:
+          name: _fScaleDepth
+        second: .25
+      data:
+        first:
+          name: _fScaleOverScaleDepth
+        second: .0035555556
+      data:
+        first:
+          name: _Samples
+        second: 3
+      data:
+        first:
+          name: _G
+        second: -.949999988
+      data:
+        first:
+          name: _G2
+        second: .902499974
+      data:
+        first:
+          name: _Exposure
+        second: 1.5
+      data:
+        first:
+          name: _SkyBloomThreshold
+        second: 0
+      data:
+        first:
+          name: DirectionalityFactor
+        second: 0
+      data:
+        first:
+          name: SunColorIntensity
+        second: 0
+      data:
+        first:
+          name: tint
+        second: 1
+      data:
+        first:
+          name: fade
+        second: 0
+      data:
+        first:
+          name: cloudSpeed1
+        second: 1
+      data:
+        first:
+          name: cloudSpeed2
+        second: 1
+      data:
+        first:
+          name: plane_height1
+        second: 1
+      data:
+        first:
+          name: plane_height2
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SunColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: -.369196087, g: .0913558379, b: .924850464, a: 0}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 611.317078, g: 45163.6953, b: 1527.38928, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
+        second: {r: 5.60204554, g: 9.47328472, b: 19.6438026, a: 1}
+      data:
+        first:
+          name: _OffsetTransform
+        second: {r: 611.317078, g: 0, b: 1527.38928, a: 0}
+      data:
+        first:
+          name: LightDir
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: vBetaRayleigh
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: BetaRayTheta
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: vBetaMie
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: BetaMieTheta
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: g_vEyePt
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: g_vSunColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: wind_direction
+        second: {r: .873693049, g: 1.2048682, b: 1.23658633, a: .300000012}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

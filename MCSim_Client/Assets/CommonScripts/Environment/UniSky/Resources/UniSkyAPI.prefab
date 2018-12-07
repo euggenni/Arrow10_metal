@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: UniSkyAPI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 856.023926, y: -249.798859, z: 1935.34619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb3bd549c62cfc4d86da29c2802f23d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  moonTexture: {fileID: 2800000, guid: dd7027f11b044d3469bad739c983989e, type: 3}
+  moonSize: 7
+  starTexture: {fileID: 2800000, guid: 429639ed86a0bdd41b98a47cc0397eaa, type: 3}
+  atmosphereScript: {fileID: 0}
+  rainAudio: {fileID: 8300000, guid: 5a98b32f7947ceb4f9b1a51a284d836d, type: 3}
+  stormAudio: {fileID: 8300000, guid: 7c764c540e47b2f4299fb9204d4e9500, type: 3}
+  thunderAudio: {fileID: 8300000, guid: ee04929e8ed331b4792e51a3cd51e207, type: 3}
+  layer1: 8
+  layer2: 9
+  sunShadowType: 0
+  moonShadowType: 0
+  innerRadius: 45000
+  precipitationLevel: 1
+  cloudCover: -2
+  colorVariance1: {x: 1.5, y: 1.5, z: 1.5}
+  colorVariance2: {x: .300000012, y: .300000012, z: .300000012}
+  glowVariance: 4.30000019
+  viewDistance: 3
+  speed: {x: .300000012, y: .300000012, z: .300000012}
+  rayleighLevel: 40
+  TIME: 12
+  useSystemTime: 0
+  speedOfTime: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E932F6C8-EDB5-FCD1-2356-601DCF4DE6E5}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\1.05\AIHelicopter.cs" />
+     <Compile Include="Assets\1.05\HelicopterToolkit.cs" />
+     <Compile Include="Assets\Bang.cs" />
+     <Compile Include="Assets\CommonScripts\Camera\DragCamera.cs" />
+     <Compile Include="Assets\CommonScripts\Camera\MouseAround.cs" />
+     <Compile Include="Assets\CommonScripts\Camera\MouseOrbitAroundTarget.cs" />
+     <Compile Include="Assets\CommonScripts\Camera\SatelliteCamera.cs" />
+     <Compile Include="Assets\CommonScripts\Camera\SatelliteControl.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\MCSEnvironmentHandler.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\MCSGlobalEnvironment.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\TerrainToolkit\TerrainToolkit.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\AtmosphereFollow.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\AtmosphereSettings.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\DirectionalSun.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\Moon.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Clouds\CloudScript.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Example Project\Assets\ExampleScript.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Example Project\Assets\FreelookCamera.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Scripts\UniSky.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Scripts\UniSkyAPI.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Weather\FollowMainCam.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Weather\OffscreenParticlesImageEffect.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Weather\RainCloudLayer.cs" />
+     <Compile Include="Assets\CommonScripts\Environment\UniSky\Weather\RainImageEffect.cs" />
+     <Compile Include="Assets\CommonScripts\MCSSerializer.cs" />
+     <Compile Include="Assets\CommonScripts\MessageTime.cs" />
+     <Compile Include="Assets\CommonScripts\Network\ConnectC3.cs" />
+     <Compile Include="Assets\CommonScripts\Network\NetworkInit.cs" />
+     <Compile Include="Assets\CommonScripts\Network\NetworkInterpolatedRotation.cs" />
+     <Compile Include="Assets\CommonScripts\Network\NetworkInterpolatedTransform.cs" />
+     <Compile Include="Assets\CommonScripts\Network\SpawnscriptC3.cs" />
+     <Compile Include="Assets\CommonScripts\iTween.cs" />
+     <Compile Include="Assets\Delegate.cs" />
+     <Compile Include="Assets\Detonator\System\Detonator.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Detonator\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\GUI\Extra GUI Skins\SkinTest.cs" />
+     <Compile Include="Assets\GUI\Marker\WeaponryMarker.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\Game\UITooltip.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\InventorySystem\System\InvTools.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\Spin.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+     <Compile Include="Assets\GUI\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\NGUISlider.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UINode.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Internal\UpdateManager.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\NGUIPanel.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\GUI\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\GUI_Menu.cs" />
+     <Compile Include="Assets\KinematicDownScript.cs" />
+     <Compile Include="Assets\MCSWeaponryEditor.cs" />
+     <Compile Include="Assets\MCSim\AI\AIControllable.cs" />
+     <Compile Include="Assets\MCSim\AI\AIUnit.cs" />
+     <Compile Include="Assets\MCSim\AI\AirCraftAI.cs" />
+     <Compile Include="Assets\MCSim\AI\Waypoint\MCSPlaneWaypoint.cs" />
+     <Compile Include="Assets\MCSim\AI\Waypoint\MCSWaypoint.cs" />
+     <Compile Include="Assets\MCSim\Factory\MCSGlobalFactory.cs" />
+     <Compile Include="Assets\MCSim\Factory\MCSTankFactory.cs" />
+     <Compile Include="Assets\MCSim\GUI\Prefabs\PopupMenuScript.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\AutoSize.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\BottomControlPanel\ControlPanel.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\GUILibrary.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\MCSCameraController.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\MCSCameraSwitcher.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\MCSUICenter.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\MCSUIObject.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\Marker\IMarkerHandler.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\Marker\MCSMarker.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\Marker\MCSMarkerReciever.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\Marker\MCSMarker_Weaponry.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\UISizer.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\WeaponryMenu\GUI_WeaponryMenu.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\WeaponryMenu\WeaponryList_Item\WeaponryList_Item.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\WindowCommander\PlayerList_Item.cs" />
+     <Compile Include="Assets\MCSim\GUI\Scripts\WindowCommander\WindowCommanderRuntime.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\Flag\MCSAirFlag.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\Flag\MCSFlag.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\MCSDummy.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\MCSDummy_Waypoint.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\MCSDummy_Weaponry.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\MCSDummy_WeaponryForTask.cs" />
+     <Compile Include="Assets\MCSim\GUI\TacticalEditor\MarkerReciever_WeaponryHandler.cs" />
+     <Compile Include="Assets\MCSim\GUI\UIBehaviour\GUIObject.cs" />
+     <Compile Include="Assets\MCSim\GUI\UIBehaviour\GUIPanel.cs" />
+     <Compile Include="Assets\MCSim\GUI\UIBehaviour\GUIPanelLibrary.cs" />
+     <Compile Include="Assets\MCSim\GUI\UIBehaviour\UIBehaviour.cs" />
+     <Compile Include="Assets\MCSim\GUI\UIBehaviour\UICenter.cs" />
+     <Compile Include="Assets\MCSim\GUI\WeaponryArms\ArmsList_Item.cs" />
+     <Compile Include="Assets\MCSim\Library\WeaponryLibrary.cs" />
+     <Compile Include="Assets\MCSim\Network\CCHandlers\MCSPlayerHandler.cs" />
+     <Compile Include="Assets\MCSim\Network\CCHandlers\MCSServerHandler.cs" />
+     <Compile Include="Assets\MCSim\Network\CCHandlers\MCSSimulationHandler.cs" />
+     <Compile Include="Assets\MCSim\Network\CCHandlers\MCSUIHandler.cs" />
+     <Compile Include="Assets\MCSim\Network\CCHandlers\MCSWeaponryHandler.cs" />
+     <Compile Include="Assets\MCSim\Network\Log\MCSLog.cs" />
+     <Compile Include="Assets\MCSim\Network\MCSCommandCenter.cs" />
+     <Compile Include="Assets\MCSim\Network\MCSGlobalSimulation.cs" />
+     <Compile Include="Assets\MCSim\Network\MCSNetworkCenter.cs" />
+     <Compile Include="Assets\MCSim\Network\Player\MCSAccountInfo.cs" />
+     <Compile Include="Assets\MCSim\Network\Player\MCSPlayer.cs" />
+     <Compile Include="Assets\MCSim\Network\Player\MCSRanks.cs" />
+     <Compile Include="Assets\MCSim\Others\AirCraft_Toolkit\AirCraftToolkit.cs" />
+     <Compile Include="Assets\MCSim\Others\MCSProjectHelper.cs" />
+     <Compile Include="Assets\MCSim\Others\Model.cs" />
+     <Compile Include="Assets\MCSim\Others\UniqueCoroutine.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Demo Assets\Scripts\GUI\Interface.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Demo Assets\Scripts\Misc\BoxSelector.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Scripts\GUISpinner.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Scripts\GizmoAxisHandle.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Scripts\GizmoController.cs" />
+     <Compile Include="Assets\MCSim\TacticalEditor\Weaponry_InstantiateWindow.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\ExamMode\MCSExamChecker.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\MCSTrainingBehaviour.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\MCSTrainingCenter.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\MCSTrainingChecker.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\MCSTrainingInfo.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\MCSTrainingOrder.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\OrderSubtask.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\Report\ReportExam.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\StopwatchTimer.cs" />
+     <Compile Include="Assets\MCSim\TrainingCenter\Weaponry\WeaponryTank\Strela10_TrainingInfo.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\LieTarget\AirLieTarget.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\LieTarget\LieTargetOut.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\LieTarget\WeaponryPlane_LieTarget.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryArms\WeaponryArms_Strela10_Launcher.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\A-10\WeaponryPlane_A10.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\AH-64\WeaponryPlane_AH64.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\B2\WeaponryPlane_B2.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\F-111\WeaponryPlane_F111.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\F-15\WeaponryPlane_F15.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\Su-34\WeaponryPlane_Su34.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\UH-60 with Lie\WeaponryPlane_UH60_2.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\UH-60\WeaponryPlane_UH60.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryPlane\YF-23\WeaponryPlane_YF23.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryRocket\WeaponryRocket_9M37.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\Strela_10\Strela10Asset\Strela10_Arms.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\Strela_10\Strela10Asset\Strela10_Operator_CoreHandler.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\Strela_10\Strela10Asset\Strela10_Operator_PanelLibrary.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\Strela_10\Strela10Asset\Strela10_TowerHandler.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\Strela_10\WeaponryTank_Strela10.cs" />
+     <Compile Include="Assets\MCSim\Weaponry\WeaponryTank\TankTrackController.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\SupportClasses.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\Weaponry.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryArms.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryDaemonDestroy.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryPlane.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryProjectile.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryRocket.cs" />
+     <Compile Include="Assets\MCSim\WeaponryClasses\WeaponryTank.cs" />
+     <Compile Include="Assets\MCSimActionListInfo.cs" />
+     <Compile Include="Assets\MCSimStatusMenu.cs" />
+     <Compile Include="Assets\PanelToolkit\Control\ControlMonitor.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Cap\CapToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\ControlPanel\ControlPanelToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Core\CoreLibrary.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Core\CoreToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Indicator\IndicatorToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Joystick\JoystickToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\LibraryClasses.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Spinner\SpinnerToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\CoreAsset\Switcher\SwitcherToolkit.cs" />
+     <Compile Include="Assets\PanelToolkit\MCSimCoreToolkitHelper.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Shared\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\Resources\UIPrefabs\MapMarker\RotateStabilizer.cs" />
+     <Compile Include="Assets\Resources\UIScripts\Elements\UIElement_Training_Participant.cs" />
+     <Compile Include="Assets\Resources\UIScripts\Panels\UIPanel_TrainingCenter.cs" />
+     <Compile Include="Assets\TargetForTask\Script\TargetInfo.cs" />
+     <Compile Include="Assets\TestMove.cs" />
+     <Compile Include="Assets\WeaponryPlane_Cloud.cs" />
+     <Compile Include="Assets\WeaponryPlane_Cloud_2.cs" />
+     <Compile Include="Assets\WeaponryPlane_Missile.cs" />
+     <Compile Include="Assets\WeaponryPlane_TargetCloud.cs" />
+     <Compile Include="Assets\WeaponryPlane_TargetCloud_2.cs" />
+     <Compile Include="Assets\WeaponryPlane_TargetsCloud.cs" />
+     <Compile Include="Assets\WeaponryPlane_WarElement.cs" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\MoonShader.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
+     <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceReflection.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Diffuse.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular Internal Faces.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceRefraction.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Clouds\CumulusPerlinLayer.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\GUI\Font\Euro\arch.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceLighting.cginc" />
+     <None Include="Assets\GUI\Font\Mil\mil.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField31.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\GUI\Font\Arial\arial.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Specular.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
+     <None Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Shader\Gizmo.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\GUI\Shaders\MaskTexture.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\OffscreenCompositeShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\addalphahack.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\Unlit .shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse Internal Faces.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\ParticleZwrite.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Luminance2NormalsBlur.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\DepthMask.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlurDof.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Internal Faces.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Specular.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\SolidColor.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\atmosScat.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\GUI\Font\MilitaryFont\Military.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\RainImageEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump Internal Faces.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\StormClouds.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\UnlitAlpha.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\lensflarecreate.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
+     <None Include="Assets\Standard Assets\Image Based\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Diffuse.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent.shader" />
+     <None Include="Assets\CommonScripts\Environment\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Specular.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{AFAA1492-3673-D417-7098-45F4E9B45C1A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

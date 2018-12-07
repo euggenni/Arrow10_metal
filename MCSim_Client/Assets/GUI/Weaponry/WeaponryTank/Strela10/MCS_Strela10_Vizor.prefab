@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MCS_Strela10_Vizor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f0bb2757ae9aac34c8bec99c9896c257, type: 2}
+  sprites:
+  - name: mask
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 1280
+      height: 720
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 304
+      width: 1280
+      height: 720
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Arrow
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 52
+      width: 251
+      height: 251
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 52
+      width: 251
+      height: 251
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: indicator
+    outer:
+      serializedVersion: 2
+      x: 461
+      y: 97
+      width: 206
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 461
+      y: 97
+      width: 206
+      height: 206
+    rotated: 0
+    paddingLeft: .00970873795
+    paddingRight: .00970873795
+    paddingTop: .00970873795
+    paddingBottom: .00970873795
+  - name: crosshair
+    outer:
+      serializedVersion: 2
+      x: 1281
+      y: 600
+      width: 424
+      height: 424
+    inner:
+      serializedVersion: 2
+      x: 1281
+      y: 600
+      width: 424
+      height: 424
+    rotated: 0
+    paddingLeft: .0919811353
+    paddingRight: .0872641504
+    paddingTop: .0872641504
+    paddingBottom: .0919811353
+  - name: Tracker
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 95
+      width: 208
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 95
+      width: 208
+      height: 208
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

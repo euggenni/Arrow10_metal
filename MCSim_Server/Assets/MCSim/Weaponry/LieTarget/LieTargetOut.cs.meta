@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5b93e029229a8094f831f4737379a354
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - placeStrela: {instanceID: 0}
+  - lieTarget: {fileID: 100000, guid: 4ba214125824a7b41825e9ff21062c99, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

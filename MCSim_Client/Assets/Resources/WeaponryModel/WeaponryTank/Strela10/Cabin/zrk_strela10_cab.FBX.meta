@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: aa018a4381a704e448ff8af3cfa6b621
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Indicator_Board
+    100002: Indicator_I
+    100004: Indicators 1
+    100006: Panel_Operator
+    100008: Indicators
+    100010: Tumbler_S
+    100012: Body 1
+    100014: Tumbler_SHK
+    100016: Panel_Azimuth
+    100018: Tumbler_Pedal
+    100020: Body 3
+    100022: Seat
+    100024: Handle 2
+    100026: Tumbler_Right
+    100028: Tumbler_Left
+    100030: Tumblers 4
+    100032: Handles
+    100034: Body_2
+    100036: Joystick
+    100038: Body 8
+    100040: Tumbler_Fan
+    100042: Tumblers 3
+    100044: Panel_Support
+    100046: Handle
+    100048: Cylinder067
+    100050: Cylinder068
+    100052: Handle 1
+    100054: Trash
+    100056: Window
+    100058: Details
+    100060: Tumbler_PO3
+    100062: Body 6
+    100064: Spinner_PO3
+    100066: Group005
+    100068: Cylinder002
+    100070: Body 5
+    100072: Group006
+    100074: Tumbler_Status
+    100076: Tumbler_Stage_4
+    100078: Tumbler_Stage_3
+    100080: Tumbler_Control
+    100082: Tumblers
+    100084: Spinner_2
+    100086: Spinner_1
+    100088: Vizor
+    100090: Tumbler
+    100092: Panel_Up
+    100094: Cylinder030
+    100096: Box022
+    100098: Group001
+    100100: Spinners
+    100102: Body 2
+    100104: Panel_Sound
+    100106: Loft008
+    100108: Vizor_Body
+    100110: Plastic
+    100112: Panel_Vizor
+    100114: Body
+    100116: Cab 1
+    100118: Tumbler_Off_On
+    100120: Tumblers 1
+    100122: Indicator_Duty
+    100124: Indicator_AOZ
+    100126: Indicators 2
+    100128: Body 7
+    100130: Group004
+    100132: Spinner_I
+    100134: Tube005
+    100136: Body 4
+    100138: Cap_1L227
+    100140: Cap_Drop
+    100142: Cap_Mode
+    100144: Caps
+    100146: Tumbler_1L227
+    100148: Tumbler_ACU
+    100150: Tumbler_PSP
+    100152: Tumbler_SOS
+    100154: Tumbler_Drop
+    100156: Tumbler_AOZ
+    100158: Tumblers 2
+    100160: Indicator_Contr
+    100162: Indicator_BL
+    100164: Loft001
+    100166: Cable
+    100168: Object002
+    100170: Cab
+    100172: Tumbler_Battle_Duty
+    100174: Indicator_Battle
+    100176: Indicator_Warning_Radiation
+    100178: Panel_Operator_4
+    100180: Spinner_Voltmeter
+    100182: Spinner_Work_Type
+    100184: Tumbler_Mode_PSP
+    100186: Tumbler_Hidden_Mode
+    100188: Tumbler_Test_Basic
+    100190: Tumbler_Power_28B
+    100192: Tumbler_Contrast
+    100194: Tumbler_Power_24B
+    100196: Tumbler_Background
+    100198: Tumbler_Driver_Handle
+    100200: Indicator_PZCool
+    100202: Indicator_Pohod_ACU
+    100204: Indicator_Rocket_1
+    100206: Indicator_Rocket_3
+    100208: Indicator_Rocket_4
+    100210: Indicator_Rocket_2
+    100212: Indicator_Mode_Practice
+    100214: Indicator_Mode_Battle
+    100216: Indicator_Voltmeter
+    100218: Indicator_NVU_Mode
+    100220: Panel_Operator 1
+    100222: Indicator_Azimuth_Left
+    100224: Indicator_Azimuth_Right
+    100226: Indicator_Azimuth_Center
+    100228: Spinner_Azimuth_S
+    100230: Spinner_Azimuth_Arrow_White
+    100232: Spinner_Azimuth_Arrow_Black
+    100234: Tumbler_Right_Trigger
+    100236: Tumbler_Tracking
+    100238: Tumbler_CombatMarching
+    100240: Tumbler_Illumination
+    100242: Tumbler_GlassHeating
+    100244: Indicator_Support_Status
+    100246: Panels_Support_Joystick
+    100248: Indicator_Status 1
+    100250: Panel_Operator_3
+    100252: Spinner_Brightness
+    100254: Indicator_Status
+    100256: Panel_Operator_2
+    100258: Tumbler_Highlight
+    100260: Spinner_Sound_CO
+    100262: Spinner_Sound_Speech
+    100264: Spinner_Sound_Boost
+    100266: Table_Descriptions
+    100268: //RootNode
+    400000: Indicator_Board
+    400002: Indicator_I
+    400004: Indicators 1
+    400006: Panel_Operator
+    400008: Indicators
+    400010: Tumbler_S
+    400012: Body 1
+    400014: Tumbler_SHK
+    400016: Panel_Azimuth
+    400018: Tumbler_Pedal
+    400020: Body 3
+    400022: Seat
+    400024: Handle 2
+    400026: Tumbler_Right
+    400028: Tumbler_Left
+    400030: Tumblers 4
+    400032: Handles
+    400034: Body_2
+    400036: Joystick
+    400038: Body 8
+    400040: Tumbler_Fan
+    400042: Tumblers 3
+    400044: Panel_Support
+    400046: Handle
+    400048: Cylinder067
+    400050: Cylinder068
+    400052: Handle 1
+    400054: Trash
+    400056: Window
+    400058: Details
+    400060: Tumbler_PO3
+    400062: Body 6
+    400064: Spinner_PO3
+    400066: Group005
+    400068: Cylinder002
+    400070: Body 5
+    400072: Group006
+    400074: Tumbler_Status
+    400076: Tumbler_Stage_4
+    400078: Tumbler_Stage_3
+    400080: Tumbler_Control
+    400082: Tumblers
+    400084: Spinner_2
+    400086: Spinner_1
+    400088: Vizor
+    400090: Tumbler
+    400092: Panel_Up
+    400094: Cylinder030
+    400096: Box022
+    400098: Group001
+    400100: Spinners
+    400102: Body 2
+    400104: Panel_Sound
+    400106: Loft008
+    400108: Vizor_Body
+    400110: Plastic
+    400112: Panel_Vizor
+    400114: Body
+    400116: Cab 1
+    400118: Tumbler_Off_On
+    400120: Tumblers 1
+    400122: Indicator_Duty
+    400124: Indicator_AOZ
+    400126: Indicators 2
+    400128: Body 7
+    400130: Group004
+    400132: Spinner_I
+    400134: Tube005
+    400136: Body 4
+    400138: Cap_1L227
+    400140: Cap_Drop
+    400142: Cap_Mode
+    400144: Caps
+    400146: Tumbler_1L227
+    400148: Tumbler_ACU
+    400150: Tumbler_PSP
+    400152: Tumbler_SOS
+    400154: Tumbler_Drop
+    400156: Tumbler_AOZ
+    400158: Tumblers 2
+    400160: Indicator_Contr
+    400162: Indicator_BL
+    400164: Loft001
+    400166: Cable
+    400168: Object002
+    400170: Cab
+    400172: Tumbler_Battle_Duty
+    400174: Indicator_Battle
+    400176: Indicator_Warning_Radiation
+    400178: Panel_Operator_4
+    400180: Spinner_Voltmeter
+    400182: Spinner_Work_Type
+    400184: Tumbler_Mode_PSP
+    400186: Tumbler_Hidden_Mode
+    400188: Tumbler_Test_Basic
+    400190: Tumbler_Power_28B
+    400192: Tumbler_Contrast
+    400194: Tumbler_Power_24B
+    400196: Tumbler_Background
+    400198: Tumbler_Driver_Handle
+    400200: Indicator_PZCool
+    400202: Indicator_Pohod_ACU
+    400204: Indicator_Rocket_1
+    400206: Indicator_Rocket_3
+    400208: Indicator_Rocket_4
+    400210: Indicator_Rocket_2
+    400212: Indicator_Mode_Practice
+    400214: Indicator_Mode_Battle
+    400216: Indicator_Voltmeter
+    400218: Indicator_NVU_Mode
+    400220: Panel_Operator 1
+    400222: Indicator_Azimuth_Left
+    400224: Indicator_Azimuth_Right
+    400226: Indicator_Azimuth_Center
+    400228: Spinner_Azimuth_S
+    400230: Spinner_Azimuth_Arrow_White
+    400232: Spinner_Azimuth_Arrow_Black
+    400234: Tumbler_Right_Trigger
+    400236: Tumbler_Tracking
+    400238: Tumbler_CombatMarching
+    400240: Tumbler_Illumination
+    400242: Tumbler_GlassHeating
+    400244: Indicator_Support_Status
+    400246: Panels_Support_Joystick
+    400248: Indicator_Status 1
+    400250: Panel_Operator_3
+    400252: Spinner_Brightness
+    400254: Indicator_Status
+    400256: Panel_Operator_2
+    400258: Tumbler_Highlight
+    400260: Spinner_Sound_CO
+    400262: Spinner_Sound_Speech
+    400264: Spinner_Sound_Boost
+    400266: Table_Descriptions
+    400268: //RootNode
+    2300000: Indicator_Board
+    2300002: Indicator_I
+    2300004: Tumbler_S
+    2300006: Body 1
+    2300008: Tumbler_SHK
+    2300010: Tumbler_Pedal
+    2300012: Body 3
+    2300014: Handle 2
+    2300016: Tumbler_Right
+    2300018: Tumbler_Left
+    2300020: Body_2
+    2300022: Body 8
+    2300024: Tumbler_Fan
+    2300026: Handle
+    2300028: Cylinder067
+    2300030: Cylinder068
+    2300032: Handle 1
+    2300034: Window
+    2300036: Details
+    2300038: Tumbler_PO3
+    2300040: Body 6
+    2300042: Spinner_PO3
+    2300044: Cylinder002
+    2300046: Body 5
+    2300048: Tumbler_Status
+    2300050: Tumbler_Stage_4
+    2300052: Tumbler_Stage_3
+    2300054: Tumbler_Control
+    2300056: Spinner_2
+    2300058: Spinner_1
+    2300060: Tumbler
+    2300062: Panel_Up
+    2300064: Cylinder030
+    2300066: Box022
+    2300068: Body 2
+    2300070: Loft008
+    2300072: Vizor_Body
+    2300074: Plastic
+    2300076: Body
+    2300078: Cab 1
+    2300080: Tumbler_Off_On
+    2300082: Indicator_Duty
+    2300084: Indicator_AOZ
+    2300086: Body 7
+    2300088: Spinner_I
+    2300090: Tube005
+    2300092: Body 4
+    2300094: Cap_1L227
+    2300096: Cap_Drop
+    2300098: Cap_Mode
+    2300100: Tumbler_1L227
+    2300102: Tumbler_ACU
+    2300104: Tumbler_PSP
+    2300106: Tumbler_SOS
+    2300108: Tumbler_Drop
+    2300110: Tumbler_AOZ
+    2300112: Indicator_Contr
+    2300114: Indicator_BL
+    2300116: Loft001
+    2300118: Cable
+    2300120: Tumbler_Battle_Duty
+    2300122: Indicator_Battle
+    2300124: Indicator_Warning_Radiation
+    2300126: Spinner_Voltmeter
+    2300128: Spinner_Work_Type
+    2300130: Tumbler_Mode_PSP
+    2300132: Tumbler_Hidden_Mode
+    2300134: Tumbler_Test_Basic
+    2300136: Tumbler_Power_28B
+    2300138: Tumbler_Contrast
+    2300140: Tumbler_Power_24B
+    2300142: Tumbler_Background
+    2300144: Tumbler_Driver_Handle
+    2300146: Indicator_PZCool
+    2300148: Indicator_Pohod_ACU
+    2300150: Indicator_Rocket_1
+    2300152: Indicator_Rocket_3
+    2300154: Indicator_Rocket_4
+    2300156: Indicator_Rocket_2
+    2300158: Indicator_Mode_Practice
+    2300160: Indicator_Mode_Battle
+    2300162: Indicator_Voltmeter
+    2300164: Indicator_NVU_Mode
+    2300166: Indicator_Azimuth_Left
+    2300168: Indicator_Azimuth_Right
+    2300170: Indicator_Azimuth_Center
+    2300172: Spinner_Azimuth_S
+    2300174: Spinner_Azimuth_Arrow_White
+    2300176: Spinner_Azimuth_Arrow_Black
+    2300178: Tumbler_Right_Trigger
+    2300180: Tumbler_Tracking
+    2300182: Tumbler_CombatMarching
+    2300184: Tumbler_Illumination
+    2300186: Tumbler_GlassHeating
+    2300188: Indicator_Support_Status
+    2300190: Indicator_Status 1
+    2300192: Spinner_Brightness
+    2300194: Indicator_Status
+    2300196: Tumbler_Highlight
+    2300198: Spinner_Sound_CO
+    2300200: Spinner_Sound_Speech
+    2300202: Spinner_Sound_Boost
+    2300204: Table_Descriptions
+    3300000: Indicator_Board
+    3300002: Indicator_I
+    3300004: Tumbler_S
+    3300006: Body 1
+    3300008: Tumbler_SHK
+    3300010: Tumbler_Pedal
+    3300012: Body 3
+    3300014: Handle 2
+    3300016: Tumbler_Right
+    3300018: Tumbler_Left
+    3300020: Body_2
+    3300022: Body 8
+    3300024: Tumbler_Fan
+    3300026: Handle
+    3300028: Cylinder067
+    3300030: Cylinder068
+    3300032: Handle 1
+    3300034: Window
+    3300036: Details
+    3300038: Tumbler_PO3
+    3300040: Body 6
+    3300042: Spinner_PO3
+    3300044: Cylinder002
+    3300046: Body 5
+    3300048: Tumbler_Status
+    3300050: Tumbler_Stage_4
+    3300052: Tumbler_Stage_3
+    3300054: Tumbler_Control
+    3300056: Spinner_2
+    3300058: Spinner_1
+    3300060: Tumbler
+    3300062: Panel_Up
+    3300064: Cylinder030
+    3300066: Box022
+    3300068: Body 2
+    3300070: Loft008
+    3300072: Vizor_Body
+    3300074: Plastic
+    3300076: Body
+    3300078: Cab 1
+    3300080: Tumbler_Off_On
+    3300082: Indicator_Duty
+    3300084: Indicator_AOZ
+    3300086: Body 7
+    3300088: Spinner_I
+    3300090: Tube005
+    3300092: Body 4
+    3300094: Cap_1L227
+    3300096: Cap_Drop
+    3300098: Cap_Mode
+    3300100: Tumbler_1L227
+    3300102: Tumbler_ACU
+    3300104: Tumbler_PSP
+    3300106: Tumbler_SOS
+    3300108: Tumbler_Drop
+    3300110: Tumbler_AOZ
+    3300112: Indicator_Contr
+    3300114: Indicator_BL
+    3300116: Loft001
+    3300118: Cable
+    3300120: Tumbler_Battle_Duty
+    3300122: Indicator_Battle
+    3300124: Indicator_Warning_Radiation
+    3300126: Spinner_Voltmeter
+    3300128: Spinner_Work_Type
+    3300130: Tumbler_Mode_PSP
+    3300132: Tumbler_Hidden_Mode
+    3300134: Tumbler_Test_Basic
+    3300136: Tumbler_Power_28B
+    3300138: Tumbler_Contrast
+    3300140: Tumbler_Power_24B
+    3300142: Tumbler_Background
+    3300144: Tumbler_Driver_Handle
+    3300146: Indicator_PZCool
+    3300148: Indicator_Pohod_ACU
+    3300150: Indicator_Rocket_1
+    3300152: Indicator_Rocket_3
+    3300154: Indicator_Rocket_4
+    3300156: Indicator_Rocket_2
+    3300158: Indicator_Mode_Practice
+    3300160: Indicator_Mode_Battle
+    3300162: Indicator_Voltmeter
+    3300164: Indicator_NVU_Mode
+    3300166: Indicator_Azimuth_Left
+    3300168: Indicator_Azimuth_Right
+    3300170: Indicator_Azimuth_Center
+    3300172: Spinner_Azimuth_S
+    3300174: Spinner_Azimuth_Arrow_White
+    3300176: Spinner_Azimuth_Arrow_Black
+    3300178: Tumbler_Right_Trigger
+    3300180: Tumbler_Tracking
+    3300182: Tumbler_CombatMarching
+    3300184: Tumbler_Illumination
+    3300186: Tumbler_GlassHeating
+    3300188: Indicator_Support_Status
+    3300190: Indicator_Status 1
+    3300192: Spinner_Brightness
+    3300194: Indicator_Status
+    3300196: Tumbler_Highlight
+    3300198: Spinner_Sound_CO
+    3300200: Spinner_Sound_Speech
+    3300202: Spinner_Sound_Boost
+    3300204: Table_Descriptions
+    4300000: Cable
+    4300002: Loft001
+    4300004: Table_Descriptions
+    4300006: Plastic
+    4300008: Vizor_Body
+    4300010: Loft008
+    4300012: Body
+    4300014: Spinner_Sound_Boost
+    4300016: Spinner_Sound_Speech
+    4300018: Spinner_Sound_CO
+    4300020: Box022
+    4300022: Cylinder030
+    4300024: Panel_Up
+    4300026: Tumbler
+    4300028: Tumbler_Highlight
+    4300030: Spinner_1
+    4300032: Spinner_2
+    4300034: Tumbler_Control
+    4300036: Tumbler_Stage_3
+    4300038: Tumbler_Stage_4
+    4300040: Tumbler_Status
+    4300042: Indicator_Status
+    4300044: Body
+    4300046: Spinner_Brightness
+    4300048: Cylinder002
+    4300050: Spinner_PO3
+    4300052: Body
+    4300054: Indicator_Status
+    4300056: Tumbler_PO3
+    4300058: Details
+    4300060: Window
+    4300062: Handle
+    4300064: Cylinder068
+    4300066: Cylinder067
+    4300068: Handle
+    4300070: Indicator_Support_Status
+    4300072: Tumbler_Fan
+    4300074: Tumbler_GlassHeating
+    4300076: Tumbler_Illumination
+    4300078: Tumbler_CombatMarching
+    4300080: Tumbler_Tracking
+    4300082: Body
+    4300084: Body_2
+    4300086: Tumbler_Left
+    4300088: Tumbler_Right
+    4300090: Tumbler_Right_Trigger
+    4300092: Handle
+    4300094: Body
+    4300096: Tumbler_Pedal
+    4300098: Spinner_Azimuth_Arrow_Black
+    4300100: Spinner_Azimuth_Arrow_White
+    4300102: Tumbler_SHK
+    4300104: Spinner_Azimuth_S
+    4300106: Body
+    4300108: Tumbler_S
+    4300110: Indicator_Azimuth_Center
+    4300112: Indicator_Azimuth_Right
+    4300114: Indicator_Azimuth_Left
+    4300116: Indicator_NVU_Mode
+    4300118: Indicator_I
+    4300120: Indicator_Voltmeter
+    4300122: Indicator_Mode_Battle
+    4300124: Indicator_Mode_Practice
+    4300126: Indicator_Rocket_2
+    4300128: Indicator_Rocket_4
+    4300130: Indicator_Rocket_3
+    4300132: Indicator_Board
+    4300134: Indicator_Rocket_1
+    4300136: Indicator_BL
+    4300138: Indicator_Contr
+    4300140: Indicator_Pohod_ACU
+    4300142: Indicator_PZCool
+    4300144: Tumbler_AOZ
+    4300146: Tumbler_Driver_Handle
+    4300148: Tumbler_Background
+    4300150: Tumbler_Power_24B
+    4300152: Tumbler_Contrast
+    4300154: Tumbler_Power_28B
+    4300156: Tumbler_Test_Basic
+    4300158: Tumbler_Hidden_Mode
+    4300160: Tumbler_Mode_PSP
+    4300162: Tumbler_Drop
+    4300164: Tumbler_SOS
+    4300166: Tumbler_PSP
+    4300168: Tumbler_ACU
+    4300170: Tumbler_1L227
+    4300172: Spinner_Work_Type
+    4300174: Cap_Mode
+    4300176: Cap_Drop
+    4300178: Cap_1L227
+    4300180: Body
+    4300182: Spinner_Voltmeter
+    4300184: Tube005
+    4300186: Spinner_I
+    4300188: Body
+    4300190: Indicator_AOZ
+    4300192: Indicator_Warning_Radiation
+    4300194: Indicator_Duty
+    4300196: Indicator_Battle
+    4300198: Tumbler_Off_On
+    4300200: Tumbler_Battle_Duty
+    4300202: Cab
+    4300204: Body
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

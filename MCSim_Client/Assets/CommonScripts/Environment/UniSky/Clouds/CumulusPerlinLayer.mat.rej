@@ -1,0 +1,10 @@
+diff a/Assets/CommonScripts/Environment/UniSky/Clouds/CumulusPerlinLayer.mat b/Assets/CommonScripts/Environment/UniSky/Clouds/CumulusPerlinLayer.mat	(rejected hunks)
+@@ -207,7 +207,7 @@ Material:
+       data:
+         first:
+           name: _v3CameraPos
+-        second: {r: 333.536224, g: 46176.8906, b: 492.03302, a: 0}
++        second: {r: 332.074799, g: 46176.8906, b: 490.286285, a: 0}
+       data:
+         first:
+           name: _v4CameraPos

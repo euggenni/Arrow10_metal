@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SignsAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 217803db261d5b946bb2aac9017963d8, type: 2}
+  sprites:
+  - name: "\u0431\u0442\u0440_\u0441\u0438\u043D"
+    outer:
+      serializedVersion: 2
+      x: 39
+      y: 74
+      width: 29
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 39
+      y: 74
+      width: 29
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u0444\u043B\u0430\u0433_\u043A\u0440\u0430\u0441\u043D"
+    outer:
+      serializedVersion: 2
+      x: 99
+      y: 77
+      width: 27
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 99
+      y: 77
+      width: 27
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0370370373
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u0442\u0430\u043D\u043A_\u0441\u0438\u043D"
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 75
+      width: 38
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 75
+      width: 38
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u0444\u043B\u0430\u0433_\u0441\u0438\u043D"
+    outer:
+      serializedVersion: 2
+      x: 39
+      y: 22
+      width: 27
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 39
+      y: 22
+      width: 27
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0370370373
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u0431\u0442\u0440_\u043A\u0440\u0430\u0441\u043D"
+    outer:
+      serializedVersion: 2
+      x: 69
+      y: 74
+      width: 29
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 69
+      y: 74
+      width: 29
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "\u0442\u0430\u043D\u043A_\u043A\u0440\u0430\u0441\u043D\u044B\u0439"
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 38
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 38
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CumulusPerlinLayer
+  m_Shader: {fileID: 4800000, guid: d96f4fd1aa9b254428a85da6e4a3f144, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IllumReference
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _IlluminationInput
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PermTexture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Scale
+        second: 67.3047562
+      data:
+        first:
+          name: _CloudCover
+        second: -2
+      data:
+        first:
+          name: _SunAngle
+        second: .999453962
+      data:
+        first:
+          name: _PrecipLevel
+        second: 1
+      data:
+        first:
+          name: _GlowVar
+        second: 4.30000019
+      data:
+        first:
+          name: _ViewDistance
+        second: 3
+      data:
+        first:
+          name: _Speed
+        second: 7.83122015
+      data:
+        first:
+          name: _ColorVar1
+        second: -41.6729126
+      data:
+        first:
+          name: _ColorVar2
+        second: 5.51641178
+      data:
+        first:
+          name: _FogDensity
+        second: 0
+      data:
+        first:
+          name: _fCameraHeight
+        second: 45071.0391
+      data:
+        first:
+          name: _fCameraHeight2
+        second: 2031398530
+      data:
+        first:
+          name: _fOuterRadius
+        second: 46125
+      data:
+        first:
+          name: _fOuterRadius2
+        second: 2127515650
+      data:
+        first:
+          name: _fInnerRadius
+        second: 45000
+      data:
+        first:
+          name: _fInnerRadius2
+        second: 2024999940
+      data:
+        first:
+          name: _fKrESun
+        second: .0299999993
+      data:
+        first:
+          name: _fKmESun
+        second: .0120000001
+      data:
+        first:
+          name: _fKr4PI
+        second: .0314159282
+      data:
+        first:
+          name: _fKm4PI
+        second: .0125663718
+      data:
+        first:
+          name: _fScale
+        second: .000888888899
+      data:
+        first:
+          name: _fScaleDepth
+        second: .25
+      data:
+        first:
+          name: _fScaleOverScaleDepth
+        second: .0035555556
+      data:
+        first:
+          name: _Samples
+        second: 3
+      data:
+        first:
+          name: _G
+        second: -.944999993
+      data:
+        first:
+          name: _G2
+        second: .893024981
+      data:
+        first:
+          name: _Exposure
+        second: 4
+      data:
+        first:
+          name: _SkyBloomThreshold
+        second: 0
+      data:
+        first:
+          name: _CloudSharpness
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _v4LightDir
+        second: {r: -.369195879, g: -.0500645526, b: .928002179, a: 0}
+      data:
+        first:
+          name: _SunAngle
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _GlowVar
+        second: {r: 23.3219948, g: 21.3576164, b: 15.5870857, a: 0}
+      data:
+        first:
+          name: _Speed
+        second: {r: .300000012, g: .300000012, b: .300000012, a: 0}
+      data:
+        first:
+          name: _ColorVar1
+        second: {r: 1.5, g: 1.5, b: 1.5, a: 0}
+      data:
+        first:
+          name: _ColorVar2
+        second: {r: .300000012, g: .300000012, b: .300000012, a: 0}
+      data:
+        first:
+          name: _SunColor
+        second: {r: .926554978, g: .913453341, b: .891507626, a: 1}
+      data:
+        first:
+          name: _v3CameraPos
+        second: {r: .230313778, g: 46267.8359, b: -119.750351, a: 0}
+      data:
+        first:
+          name: _v4CameraPos
+        second: {r: 217.458069, g: 45068.9688, b: -373.134766, a: 0}
+      data:
+        first:
+          name: _cInvWaveLength
+        second: {r: 5.60204554, g: 9.47328472, b: 19.6438026, a: 1}
+      data:
+        first:
+          name: _OffsetTransform
+        second: {r: 217.458069, g: 0, b: -373.134766, a: 0}
+      data:
+        first:
+          name: _EyeDirection
+        second: {r: .974321604, g: -.113203228, b: .194635153, a: 0}
+      data:
+        first:
+          name: _SunDirection
+        second: {r: 42.4700432, g: 149.965836, b: 0, a: 0}
+      data:
+        first:
+          name: _ShadowColor
+        second: {r: 5.26895571, g: 5.04486799, b: 4.04144049, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
