@@ -14,14 +14,11 @@ public class ConnectC3 : MonoBehaviour
     public int connectPort = 25001;
     private int i = 0;
 
-
     private UniSkyAPI uniSky;
 
     void Awake()
     {
         // Define instance
-       
-
         // Functions to interpolate parameters over time
         /*
         uniSky.LerpCloudCover(0.5f, 5000.0f);
@@ -58,7 +55,6 @@ public class ConnectC3 : MonoBehaviour
     // Î÷åâèäíî, ÷òî ãðàôè÷åñêèé èíòåðôåéñ äëÿ êëèåíòà è ñåðâåðà (mixed!)
     void OnGUI()
     {
-
         if (Network.peerType == NetworkPeerType.Disconnected)
         {
             //We are currently disconnected: Not a client or host
@@ -83,9 +79,7 @@ public class ConnectC3 : MonoBehaviour
 
             if (Network.peerType == NetworkPeerType.Connecting)
             {
-
                 GUILayout.Label("Connection status: Connecting");
-
             }
             else if (Network.peerType == NetworkPeerType.Client)
             {

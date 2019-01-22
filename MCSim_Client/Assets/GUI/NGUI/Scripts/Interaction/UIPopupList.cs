@@ -22,6 +22,8 @@ public class UIPopupList : MonoBehaviour
 
 	const float animSpeed = 0.15f;
 
+    string previewPlatoon = "";
+
 	public enum Position
 	{
 		Auto,
@@ -67,11 +69,11 @@ public class UIPopupList : MonoBehaviour
 
 	public Position position = Position.Auto;
 
-	/// <summary>
-	/// New line-delimited list of items.
-	/// </summary>
+    /// <summary>
+    /// New line-delimited list of items.
+    /// </summary>
 
-	public List<string> items = new List<string>();
+    public List<string> items = new List<string>();
 
 	/// <summary>
 	/// Amount of padding added to labels.
@@ -151,12 +153,14 @@ public class UIPopupList : MonoBehaviour
 	/// <summary>
 	/// Current selection.
 	/// </summary>
+    /// 
 
 	public string selection
 	{
 		get
 		{
 			return mSelectedItem;
+            
 		}
 		set
 		{
@@ -202,30 +206,86 @@ public class UIPopupList : MonoBehaviour
 		}
 	}
 
-	/// <summary>
-	/// Send out the selection message on start.
-	/// </summary>
+    /// <summary>
+    /// Send out the selection message on start.
+    /// </summary>
 
-	void Start ()
-	{
-		// Automatically choose the first item
-		if (string.IsNullOrEmpty(mSelectedItem))
-		{
-			if (items.Count > 0) selection = items[0];
-		}
-		else
-		{
-			string s = mSelectedItem;
-			mSelectedItem = null;
-			selection = s;
-		}
-	}
+    void Start()
+    {
+        if (this.GetComponent<SettingsPopupList>() != null)
+        {
+            switch (this.GetComponent<SettingsPopupList>().sourceList)
+            {
+                case SourceListEnum.Platoons:
+                    items = GUIMainMenuState.Platoons;
+                    break;
+            }
+        }
 
-	/// <summary>
-	/// Localize the text label.
-	/// </summary>
+        // Automatically choose the first item
+        if (string.IsNullOrEmpty(mSelectedItem))
+        {
+            if (items.Count > 0) selection = items[0];
+        }
+        else
+        {
+            string s = mSelectedItem;
+            mSelectedItem = null;
+            selection = s;
+        }
+    }
 
-	void OnLocalize (Localization loc)
+    void Update()
+    {
+        ChooseSourceList();
+    }
+
+    void ChooseSourceList()
+    {
+        if (this.GetComponent<SettingsPopupList>() != null)
+        {
+            switch (this.GetComponent<SettingsPopupList>().sourceList)
+            {
+                case SourceListEnum.Platoons:
+                    items = GUIMainMenuState.Platoons;
+                    //  items = GUIMainMenuState.Students[GUIMainMenuState.CurrentPlatoon];
+                    //Instantiate(Resources.Load("Popup List Students"));
+                    break;
+                case SourceListEnum.Students:
+                    Debug.Log(GUIMainMenuState.CurrentPlatoon);
+                    items = GUIMainMenuState.Students[GUIMainMenuState.CurrentPlatoon];//new List<string>(new string[] { "Уткин", "Прибауткин" });// GUIMainMenuState.Students[GUIMainMenuState.CurrentPlatoon];
+                    break;
+                default:
+                    Debug.Log("default");
+                    break;
+            }
+        }
+        foreach (var item in items)
+        {
+           // Debug.Log(item);
+        }
+    }
+
+    void OnPlatoonsChange(string platoon)
+    {
+        Debug.Log("OnChnage");
+        if (this.GetComponent<SettingsPopupList>() != null)
+        {
+            switch (this.GetComponent<SettingsPopupList>().sourceList)
+            {
+                case SourceListEnum.Students:
+                    items = GUIMainMenuState.Students[platoon];
+                    break;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Localize the text label.
+    /// </summary>
+
+
+    void OnLocalize (Localization loc)
 	{
 		if (isLocalized && textLabel != null)
 		{
@@ -299,7 +359,23 @@ public class UIPopupList : MonoBehaviour
 				NGUITools.PlaySound(snd.audioClip, snd.volume, 1f);
 			}
 		}
-	}
+
+        if (this.GetComponent<SettingsPopupList>().sourceList != null)
+        {
+            switch (this.GetComponent<SettingsPopupList>().sourceList)
+            {
+                case SourceListEnum.Platoons:
+                    GUIMainMenuState.CurrentPlatoon = selection;
+                    ChooseSourceList();
+                    break;
+                case SourceListEnum.Students:
+                    ChooseSourceList();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
 
 	/// <summary>
 	/// Event function triggered when the drop-down list item gets clicked on.
