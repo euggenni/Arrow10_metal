@@ -33,6 +33,7 @@ public class GUILibrary : MonoBehaviour {
     public GameObject Prefab_Window_TaskMenu;
     public GameObject Prefab_Window_Console;
     public GameObject Prefab_Window_StatusInfo;
+    public GameObject Prefab_Window_Students;
 
     public Dictionary<string,GameObject> Windows = new Dictionary<string, GameObject>();
 }

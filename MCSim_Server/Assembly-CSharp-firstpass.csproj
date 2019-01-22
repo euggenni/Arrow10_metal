@@ -1,244 +1,242 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AFAA1492-3673-D417-7098-45F4E9B45C1A}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>
-    </RootNamespace>
-    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{AFAA1492-3673-D417-7098-45F4E9B45C1A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <Prefer32Bit>false</Prefer32Bit>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <Prefer32Bit>false</Prefer32Bit>
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+	<Reference Include="System" />
     <Reference Include="System.XML" />
-    <Reference Include="System.Core" />
-    <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-    </Reference>
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity4.5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity4.5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Standard Assets\Image Based\GlowEffect.cs" />
-    <Compile Include="Assets\Standard Assets\Image Based\ImageEffectBase.cs" />
-    <Compile Include="Assets\Standard Assets\Image Based\ImageEffects.cs" />
-    <Compile Include="Assets\Standard Assets\MultiDim.cs" />
-    <Compile Include="Assets\Standard Assets\Resize.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\BrightnessControl.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\LineManager.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\RefInt.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\Vector.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VectorChar.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VectorLine.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VectorManager.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControl.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlAlways.cs" />
-    <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlStatic.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
-    <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\MoonShader.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Depth.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
-    <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh2.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Models\Orc\Orc Skin.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceReflection.cginc" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Diffuse.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular Internal Faces.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceRefraction.cginc" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Clouds\CumulusPerlinLayer.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
-    <None Include="Assets\GUI\Font\Euro\arch.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceLighting.cginc" />
-    <None Include="Assets\GUI\Font\Mil\mil.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface.cginc" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField31.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
-    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
-    <None Include="Assets\GUI\Font\Arial\arial.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
-    <None Include="Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
-    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Specular.shader" />
-    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
-    <None Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Shader\Gizmo.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
-    <None Include="Assets\GUI\Shaders\MaskTexture.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent.shader" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\OffscreenCompositeShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Bump.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\addalphahack.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent.shader" />
-    <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh.shader" />
-    <None Include="Assets\GUI\Vectrosity\Shaders\Unlit .shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse Internal Faces.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent.shader" />
-    <None Include="Assets\GUI\Vectrosity\Shaders\ParticleZwrite.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Luminance2NormalsBlur.shader" />
-    <None Include="Assets\GUI\Vectrosity\Shaders\DepthMask.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlurDof.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Internal Faces.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Specular.shader" />
-    <None Include="Assets\GUI\Vectrosity\Shaders\SolidColor.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\atmosScat.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Other\English.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Other\French.txt" />
-    <None Include="Assets\GUI\Font\MilitaryFont\Military.txt" />
-    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\RainImageEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump Internal Faces.shader" />
-    <None Include="Assets\CommonScripts\Environment\UniSky\Weather\StormClouds.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
-    <None Include="Assets\GUI\Vectrosity\Shaders\UnlitAlpha.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\lensflarecreate.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Shaders\Refractive.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
-    <None Include="Assets\Standard Assets\Image Based\GlowEffectDownsample.shader" />
-    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Bump.shader" />
-    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Bump.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
-    <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Diffuse.shader" />
-    <None Include="Assets\GUI\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent.shader" />
-    <None Include="Assets\CommonScripts\Environment\TerrainToolkit\Read me.txt" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Specular.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent.shader" />
-    <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Specular.shader" />
+     <Compile Include="Assets\Standard Assets\Image Based\GlowEffect.cs" />
+     <Compile Include="Assets\Standard Assets\Image Based\ImageEffectBase.cs" />
+     <Compile Include="Assets\Standard Assets\Image Based\ImageEffects.cs" />
+     <Compile Include="Assets\Standard Assets\MultiDim.cs" />
+     <Compile Include="Assets\Standard Assets\Resize.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\BrightnessControl.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\LineManager.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\RefInt.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\Vector.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorChar.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorLine.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VectorManager.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControl.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlAlways.cs" />
+     <Compile Include="Assets\Standard Assets\VectorScripts\VisibilityControlStatic.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\MoonShader.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
+     <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceReflection.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Diffuse.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular Internal Faces.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceProScreenSpaceRefraction.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Clouds\CumulusPerlinLayer.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\GUI\Font\Euro\arch.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfaceLighting.cginc" />
+     <None Include="Assets\GUI\Font\Mil\mil.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField31.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\GUI\Font\Arial\arial.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Specular.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
+     <None Include="Assets\MCSim\TacticalEditor\Gizmo Controller\Gizmo Assets\Shader\Gizmo.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\GUI\Shaders\MaskTexture.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\OffscreenCompositeShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\addalphahack.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\PanelToolkit\Editor\EditorAssets\Materials\Navmesh.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\Unlit .shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse Internal Faces.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\ParticleZwrite.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Luminance2NormalsBlur.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\DepthMask.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlurDof.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Internal Faces.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Back Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Specular.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\SolidColor.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Atmosphere\atmosScat.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Bump.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\GUI\Font\MilitaryFont\Military.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent Diffuse.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\RainImageEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump Internal Faces.shader" />
+     <None Include="Assets\CommonScripts\Environment\UniSky\Weather\StormClouds.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\GUI\Vectrosity\Shaders\UnlitAlpha.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw First Transparent Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\lensflarecreate.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
+     <None Include="Assets\Standard Assets\Image Based\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Opaque Bump.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
+     <None Include="Assets\GUI\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent Diffuse.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw Last Transparent Diffuse.shader" />
+     <None Include="Assets\GUI\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent.shader" />
+     <None Include="Assets\CommonScripts\Environment\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Transparent Specular.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Draw Last Transparent.shader" />
+     <None Include="Assets\Resources\Hard Surface Pro\HardSurface Shaders\HardSurface Pro Draw First Opaque Specular.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -248,4 +246,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>

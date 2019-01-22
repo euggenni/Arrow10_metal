@@ -209,6 +209,9 @@ public class MCSUICenter: MonoBehaviour
                 case "StatusInfo":
                     (Store.Windows["Window_StatusInfo"].GetComponent<MCSUIObject>()).Show();
                     break;
+                case "Students":
+                    (Store.Windows["Window_Students"].GetComponent<MCSUIObject>()).Show();
+                    break;
 
             }
             WindowCommander.GetComponent<WindowCommanderRuntime>().Hide();
@@ -234,6 +237,11 @@ public class MCSUICenter: MonoBehaviour
             case "StatusInfo":
                 go = (GameObject)Instantiate(Store.Prefab_Window_StatusInfo);
                 Store.Windows["Window_StatusInfo"] = go;
+                break;
+            case "Students":
+                //Debug.LogError("Students");
+                go = (GameObject)Instantiate(Store.Prefab_Window_Students);
+                Store.Windows["Window_Students"] = go;
                 break;
             default:
                 Debug.Log("Íå íàéäåíî îêíî ñ èìåíåì [" + windowName + "]");

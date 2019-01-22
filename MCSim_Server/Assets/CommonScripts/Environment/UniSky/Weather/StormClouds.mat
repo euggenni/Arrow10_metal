@@ -9,6 +9,7 @@ Material:
   m_Name: StormClouds
   m_Shader: {fileID: 4800000, guid: 9e5ad82c327213c418a6b154519214e5, type: 3}
   m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:

@@ -9,6 +9,7 @@ Material:
   m_Name: CumulusPerlinLayer
   m_Shader: {fileID: 4800000, guid: d96f4fd1aa9b254428a85da6e4a3f144, type: 3}
   m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -219,7 +220,7 @@ Material:
       data:
         first:
           name: _v3CameraPos
-        second: {r: -95.5984879, g: 46278.1836, b: 298.660431, a: 0}
+        second: {r: 0, g: 46259.0352, b: -9.17899513, a: 0}
       data:
         first:
           name: _EyeDirection
